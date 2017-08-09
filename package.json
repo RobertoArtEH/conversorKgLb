@@ -1,0 +1,31 @@
+{
+  "name": "conversor",
+  "version": "0.1.0",
+  "description": "Conversor de Libras a Kilogramos y Kilogramos a Libras",
+  "main": "dist/src/conversorKgLb.js",
+  "scripts": {
+    "build": "babel src/conversorKgLb.js -d dist",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RobertoArtEH/conversorKgLb.git"
+  },
+  "keywords": [
+    "conversor",
+    "conversion",
+    "kg",
+    "lb",
+    "kilogramos",
+    "libras",
+    "masa"
+  ],
+  "author": "Roberto Arturo Esqueda Hernandez <robertoartesqueda@gmail.com> (https://twitter.com/RobertoArtEH)",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.6.0",
+    "chai": "^4.1.1",
+    "mocha": "^3.5.0"
+  }
+}
