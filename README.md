@@ -22,11 +22,11 @@ convToLb(kilogramos)
 ```
 Ejemplos
 ```
-convToKg(1) //"0.454"
-convToKg(2, 3) //"0.907", "1.361"
+convToKg(1) //["0.454"]
+convToKg(2, 3) //["0.907", "1.361"]
 
-convToLb(1) //"2.205"
-convToLb(2, 3) //"4.409", "6.614"
+convToLb(1) //["2.205"]
+convToLb(2, 3) //["4.409", "6.614"]
 ```
 
 ## Creditos
